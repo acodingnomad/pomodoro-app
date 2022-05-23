@@ -64,7 +64,7 @@ const PomodoroTimer = () => {
         Pomodoro Timer
       </h1>
       <div className="flex m-auto items-center justify-center mt-8 bg-cover w-64 h-64 rounded-lg bg-[url('./pomodoro.png')]">
-        <p className="text-white text-3xl pt-6 font-bold">
+        <p className="text-white text-3xl pl-4 pt-6 font-bold">
           {minutes}:{seconds === "0" ? "00" : seconds}
         </p>
       </div>
@@ -73,7 +73,7 @@ const PomodoroTimer = () => {
           onClick={startTimer}
           className="py-3 bg-[#dd2d44] w-32 rounded-lg text-[white] font-semibold hover:bg-[#dd2d4475] hover:text-[#dd2d44]"
         >
-          Start
+          Starte
         </button>
         <button
           onClick={pauseTimer}
